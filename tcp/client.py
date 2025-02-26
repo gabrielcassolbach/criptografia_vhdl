@@ -2,7 +2,7 @@ import socket
 import hashlib
 
 # Define constantes para comunicação
-SERVER = "127.0.0.1"
+SERVER = "10.0.0.100"
 PORT = 1234
 BUFFER_SIZE = 4096
 ENCODING = 'utf-8'
