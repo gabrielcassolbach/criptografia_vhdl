@@ -4,6 +4,14 @@
 <scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
 <instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1833194522;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1833194522.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.1390564165;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.1118168629">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="C:/logica/DE2_NET/software/simple_socket_bsp/iniche/inc"/>
+<includePath path="C:/logica/DE2_NET/software/simple_socket_bsp/iniche/src/h"/>
+<includePath path="C:/logica/DE2_NET/software/simple_socket_bsp/iniche/src/h/nios2"/>
+<includePath path="C:/logica/DE2_NET/software/simple_socket_bsp/iniche/src/nios2"/>
+<includePath path="C:/logica/DE2_NET/software/simple_socket_bsp/UCOSII/inc"/>
+<includePath path="C:/logica/DE2_NET/software/simple_socket_bsp/HAL/inc"/>
+<includePath path="C:/logica/DE2_NET/software/simple_socket_bsp"/>
+<includePath path="C:/logica/DE2_NET/software/simple_socket_bsp/drivers/inc"/>
 <includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++"/>
 <includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\i686-pc-cygwin"/>
 <includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\backward"/>
@@ -246,6 +254,14 @@
 </instance>
 <instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1833194522;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1833194522.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.1691448658;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.1930806121">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="C:/logica/DE2_NET/software/simple_socket_bsp/iniche/inc"/>
+<includePath path="C:/logica/DE2_NET/software/simple_socket_bsp/iniche/src/h"/>
+<includePath path="C:/logica/DE2_NET/software/simple_socket_bsp/iniche/src/h/nios2"/>
+<includePath path="C:/logica/DE2_NET/software/simple_socket_bsp/iniche/src/nios2"/>
+<includePath path="C:/logica/DE2_NET/software/simple_socket_bsp/UCOSII/inc"/>
+<includePath path="C:/logica/DE2_NET/software/simple_socket_bsp/HAL/inc"/>
+<includePath path="C:/logica/DE2_NET/software/simple_socket_bsp"/>
+<includePath path="C:/logica/DE2_NET/software/simple_socket_bsp/drivers/inc"/>
 <includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include"/>
 <includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include-fixed"/>
 <includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\usr\include"/>

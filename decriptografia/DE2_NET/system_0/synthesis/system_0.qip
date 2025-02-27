@@ -2,7 +2,7 @@ set_global_assignment -entity "system_0" -library "system_0" -name IP_TOOL_NAME 
 set_global_assignment -entity "system_0" -library "system_0" -name IP_TOOL_VERSION "13.0sp1"
 set_global_assignment -entity "system_0" -library "system_0" -name IP_TOOL_ENV "Qsys"
 set_global_assignment -library "system_0" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../system_0.sopcinfo"]
-set_instance_assignment -entity "system_0" -library "system_0" -name SLD_INFO "QSYS_NAME system_0 HAS_SOPCINFO 1 GENERATION_ID 1740515352"
+set_instance_assignment -entity "system_0" -library "system_0" -name SLD_INFO "QSYS_NAME system_0 HAS_SOPCINFO 1 GENERATION_ID 1740595332"
 set_global_assignment -library "system_0" -name MISC_FILE [file join $::quartus(qip_path) "../../system_0.cmp"]
 set_global_assignment -name SYNTHESIS_ONLY_QIP ON
 set_global_assignment -library "system_0" -name MISC_FILE [file join $::quartus(qip_path) "../../system_0.qsys"]
@@ -38,6 +38,22 @@ set_global_assignment -library "system_0" -name SYSTEMVERILOG_FILE [file join $:
 set_global_assignment -library "system_0" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_master_agent.sv"]
 set_global_assignment -library "system_0" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_slave_translator.sv"]
 set_global_assignment -library "system_0" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_master_translator.sv"]
+set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/add_round_key.vhd"]
+set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/aes_dec.vhd"]
+set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/column_calculator.vhd"]
+set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/controller.vhd"]
+set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/dec.vhd"]
+set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/gfmult_by2.vhd"]
+set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/inv_column_calculator.vhd"]
+set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/inv_key_sch_round_function.vhd"]
+set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/inv_mix_columns.vhd"]
+set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/inv_sbox.vhd"]
+set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/inv_shift_rwos.vhd"]
+set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/inv_sub_byte.vhd"]
+set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/key_schedule.vhd"]
+set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/mix_columns.vhd"]
+set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/reg.vhd"]
+set_global_assignment -library "system_0" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/sbox.vhd"]
 set_global_assignment -library "system_0" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/SRAM_16Bit_512K.v"]
 set_global_assignment -library "system_0" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/SEG7_LUT.v"]
 set_global_assignment -library "system_0" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/SEG7_LUT_8.v"]

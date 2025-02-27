@@ -1,7 +1,7 @@
 import socket
 
 
-TCP_IP = '10.0.0.100'
+TCP_IP = '192.168.1.110'
 TCP_PORT = 7777
 BUFFER_SIZE = 2000  # Normally 1024, but we want fast response
 

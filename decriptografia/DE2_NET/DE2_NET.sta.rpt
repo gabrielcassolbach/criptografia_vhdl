@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for DE2_NET
-Wed Feb 26 09:04:30 2025
+Wed Feb 26 19:33:38 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -87,8 +87,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-----------------------------------------------------------+--------+--------------------------+
 ; SDC File Path                                             ; Status ; Read at                  ;
 +-----------------------------------------------------------+--------+--------------------------+
-; system_0/synthesis/submodules/altera_reset_controller.sdc ; OK     ; Wed Feb 26 09:04:29 2025 ;
-; system_0/synthesis/submodules/system_0_cpu_0.sdc          ; OK     ; Wed Feb 26 09:04:29 2025 ;
+; system_0/synthesis/submodules/altera_reset_controller.sdc ; OK     ; Wed Feb 26 19:33:37 2025 ;
+; system_0/synthesis/submodules/system_0_cpu_0.sdc          ; OK     ; Wed Feb 26 19:33:37 2025 ;
 +-----------------------------------------------------------+--------+--------------------------+
 
 
@@ -307,7 +307,7 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Wed Feb 26 09:04:27 2025
+    Info: Processing started: Wed Feb 26 19:33:35 2025
 Info: Command: quartus_sta DE2_NET -c DE2_NET
 Info: qsta_default_script.tcl version: #1
 Info (21077): Low junction temperature is 0 degrees C
@@ -406,9 +406,9 @@ Info (332001): The selected device family is not supported by the report_metasta
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 18 warnings
-    Info: Peak virtual memory: 4685 megabytes
-    Info: Processing ended: Wed Feb 26 09:04:30 2025
+    Info: Peak virtual memory: 4679 megabytes
+    Info: Processing ended: Wed Feb 26 19:33:38 2025
     Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Total CPU time (on all processors): 00:00:02
 
 

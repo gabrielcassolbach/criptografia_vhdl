@@ -47,12 +47,12 @@ module system_0_addr_router_default_decode
      parameter DEFAULT_CHANNEL = 1,
                DEFAULT_WR_CHANNEL = -1,
                DEFAULT_RD_CHANNEL = -1,
-               DEFAULT_DESTID = 17 
+               DEFAULT_DESTID = 18 
    )
   (output [91 - 87 : 0] default_destination_id,
-   output [24-1 : 0] default_wr_channel,
-   output [24-1 : 0] default_rd_channel,
-   output [24-1 : 0] default_src_channel
+   output [25-1 : 0] default_wr_channel,
+   output [25-1 : 0] default_rd_channel,
+   output [25-1 : 0] default_src_channel
   );
 
   assign default_destination_id = 
@@ -63,7 +63,7 @@ module system_0_addr_router_default_decode
       assign default_src_channel = '0;
     end
     else begin
-      assign default_src_channel = 24'b1 << DEFAULT_CHANNEL;
+      assign default_src_channel = 25'b1 << DEFAULT_CHANNEL;
     end
   end
   endgenerate
@@ -74,8 +74,8 @@ module system_0_addr_router_default_decode
       assign default_rd_channel = '0;
     end
     else begin
-      assign default_wr_channel = 24'b1 << DEFAULT_WR_CHANNEL;
-      assign default_rd_channel = 24'b1 << DEFAULT_RD_CHANNEL;
+      assign default_wr_channel = 25'b1 << DEFAULT_WR_CHANNEL;
+      assign default_rd_channel = 25'b1 << DEFAULT_RD_CHANNEL;
     end
   end
   endgenerate
@@ -105,7 +105,7 @@ module system_0_addr_router
     // -------------------
     output                          src_valid,
     output reg [102-1    : 0] src_data,
-    output reg [24-1 : 0] src_channel,
+    output reg [25-1 : 0] src_channel,
     output                          src_startofpacket,
     output                          src_endofpacket,
     input                           src_ready
@@ -121,7 +121,7 @@ module system_0_addr_router
     localparam PKT_PROTECTION_H = 95;
     localparam PKT_PROTECTION_L = 93;
     localparam ST_DATA_W = 102;
-    localparam ST_CHANNEL_W = 24;
+    localparam ST_CHANNEL_W = 25;
     localparam DECODER_TYPE = 0;
 
     localparam PKT_TRANS_WRITE = 63;
@@ -166,7 +166,7 @@ module system_0_addr_router
     assign src_endofpacket   = sink_endofpacket;
 
     wire [PKT_DEST_ID_W-1:0] default_destid;
-    wire [24-1 : 0] default_src_channel;
+    wire [25-1 : 0] default_src_channel;
 
 
 
@@ -191,32 +191,32 @@ module system_0_addr_router
 
     // ( 0x800000 .. 0x1000000 )
     if ( {address[RG:PAD0],{PAD0{1'b0}}} == 25'h800000   ) begin
-            src_channel = 24'b00010;
-            src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 17;
+            src_channel = 25'b00010;
+            src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 18;
     end
 
     // ( 0x1400000 .. 0x1800000 )
     if ( {address[RG:PAD1],{PAD1{1'b0}}} == 25'h1400000   ) begin
-            src_channel = 24'b01000;
+            src_channel = 25'b01000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 10;
     end
 
     // ( 0x1a81000 .. 0x1a81800 )
     if ( {address[RG:PAD2],{PAD2{1'b0}}} == 25'h1a81000   ) begin
-            src_channel = 24'b00001;
+            src_channel = 25'b00001;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 11;
     end
 
     // ( 0x1a81800 .. 0x1a82000 )
     if ( {address[RG:PAD3],{PAD3{1'b0}}} == 25'h1a81800   ) begin
-            src_channel = 24'b00100;
-            src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 12;
+            src_channel = 25'b00100;
+            src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 13;
     end
 
     // ( 0x1a82108 .. 0x1a82110 )
     if ( {address[RG:PAD4],{PAD4{1'b0}}} == 25'h1a82108   ) begin
-            src_channel = 24'b10000;
-            src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 20;
+            src_channel = 25'b10000;
+            src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 21;
     end
 
 end
