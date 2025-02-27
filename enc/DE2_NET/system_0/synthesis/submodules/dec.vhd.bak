@@ -1,0 +1,43 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity decryptor is
+    port (
+        clk         : in  std_logic;
+        reset       : in  std_logic;
+        address     : in  std_logic_vector(2 downto 0);  -- Endereço do texto na SDRAM (ex.: 1024 bytes)
+        read_enable : in  std_logic;
+		  wr_enable	  : in std_logic;
+		  chip_select : in std_logic;
+		  data_in	  : in std_logic_vector(31 downto 0);
+        data_out    : out std_logic_vector(31 downto 0)   -- Dado descriptografado
+    );
+end entity decryptor;
+
+architecture rtl of decryptor is
+    -- Memória SDRAM simulada:
+    --   * Texto armazenado a partir do offset 0x0
+    --   * Chave armazenada a partir do offset 0x1000 (4096 decimal)
+    type mem_array is array (0 to 4096) of std_logic_vector(7 downto 0);
+    signal sdram_mem : mem_array;
+    
+    -- Chave lida da posição 4096 da SDRAM
+    signal key_value : std_logic_vector(7 downto 0);
+begin
+    -- Atribui o valor da chave (posição 0x1000)
+    key_value <= sdram_mem(4096);
+
+    process(clk)
+    begin
+        if rising_edge(clk) then
+            if reset = '1' then
+                data_out <= (others => '0');
+            elsif read_enable = '1' then
+                -- Lê o byte do texto, cuja posição é definida pela entrada "address"
+                -- e realiza a descriptografia via XOR com a chave
+                data_out <= sdram_mem(to_integer(unsigned(address))) xor key_value;
+            end if;
+        end if;
+    end process;
+end architecture rtl;
