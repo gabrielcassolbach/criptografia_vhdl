@@ -1,0 +1,33 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use work.complex_pkg.all;
+
+entity butterfly is
+    port (
+        inA     : in complex;   -- Input A
+        inB     : in complex;   -- Input B
+        tw      : in complex;   -- Twiddle factor
+        outA    : out complex;  -- Output A
+        outB    : out complex   -- Output B
+    );
+end butterfly ; 
+
+architecture rtl of butterfly is
+    signal outA_sig, outB_sig, tmp_sig : complex;
+begin
+
+
+    -- Butterfly operation
+    -- tmp = inB * tw
+    tmp_sig <= cmplx_mul(inB, tw);
+    -- outA = inA + tmp
+    outA_sig <= cmplx_sum(inA, tmp_sig);
+    -- outB = inA - tmp
+    outB_sig <= cmplx_sub(inA, tmp_sig);
+
+    -- Merge real and imaginary parts into output signals
+    outA <= outA_sig;
+    outB <= outB_sig;
+
+end architecture rtl;

@@ -1,0 +1,50 @@
+obj/default/SSS_DE2_115.o: SSS_DE2_115.c SSS_DE2_115.h \
+  ../aes_dec_bsp//HAL/inc/sys/alt_flash.h \
+  ../aes_dec_bsp//HAL/inc/alt_types.h \
+  ../aes_dec_bsp//HAL/inc/sys/alt_flash_types.h \
+  ../aes_dec_bsp//HAL/inc/sys/alt_flash_dev.h \
+  ../aes_dec_bsp//HAL/inc/sys/alt_llist.h \
+  ../aes_dec_bsp//HAL/inc/priv/alt_dev_llist.h \
+  ../aes_dec_bsp//HAL/inc/sys/alt_llist.h \
+  ../aes_dec_bsp//HAL/inc/alt_types.h \
+  ../aes_dec_bsp//HAL/inc/sys/alt_cache.h \
+  ../aes_dec_bsp//HAL/inc/sys/alt_flash_dev.h \
+  ../aes_dec_bsp//HAL/inc/io.h ../aes_dec_bsp//HAL/inc/alt_types.h \
+  ../aes_dec_bsp//HAL/inc/sys/alt_alarm.h \
+  ../aes_dec_bsp//HAL/inc/sys/alt_llist.h \
+  ../aes_dec_bsp//HAL/inc/priv/alt_alarm.h \
+  ../aes_dec_bsp//HAL/inc/alt_types.h
+
+SSS_DE2_115.h:
+
+../aes_dec_bsp//HAL/inc/sys/alt_flash.h:
+
+../aes_dec_bsp//HAL/inc/alt_types.h:
+
+../aes_dec_bsp//HAL/inc/sys/alt_flash_types.h:
+
+../aes_dec_bsp//HAL/inc/sys/alt_flash_dev.h:
+
+../aes_dec_bsp//HAL/inc/sys/alt_llist.h:
+
+../aes_dec_bsp//HAL/inc/priv/alt_dev_llist.h:
+
+../aes_dec_bsp//HAL/inc/sys/alt_llist.h:
+
+../aes_dec_bsp//HAL/inc/alt_types.h:
+
+../aes_dec_bsp//HAL/inc/sys/alt_cache.h:
+
+../aes_dec_bsp//HAL/inc/sys/alt_flash_dev.h:
+
+../aes_dec_bsp//HAL/inc/io.h:
+
+../aes_dec_bsp//HAL/inc/alt_types.h:
+
+../aes_dec_bsp//HAL/inc/sys/alt_alarm.h:
+
+../aes_dec_bsp//HAL/inc/sys/alt_llist.h:
+
+../aes_dec_bsp//HAL/inc/priv/alt_alarm.h:
+
+../aes_dec_bsp//HAL/inc/alt_types.h:

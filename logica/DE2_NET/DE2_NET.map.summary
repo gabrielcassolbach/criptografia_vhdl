@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Mar 04 22:14:17 2025
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : DE2_NET
+Top-level Entity Name : AES_decypher_avalon
+Family : Cyclone II
+Total logic elements : 5,606
+    Total combinational functions : 5,062
+    Dedicated logic registers : 967
+Total registers : 967
+Total pins : 75
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

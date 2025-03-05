@@ -1,0 +1,1481 @@
+
+**** Build of configuration Nios II for project aes_dec_bsp ****
+
+make all 
+      0 [main] pwd 9276 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 1040 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 15772 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_alarm_start.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 17120 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_alarm_start.o HAL/src/alt_alarm_start.c
+      0 [main] echo 14248 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_busy_sleep.c...
+      0 [main] mkdir 19388 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_busy_sleep.o HAL/src/alt_busy_sleep.c
+      0 [main] echo 6356 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_close.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 13448 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_close.o HAL/src/alt_close.c
+      0 [main] echo 18664 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_dcache_flush.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 7460 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_dcache_flush.o HAL/src/alt_dcache_flush.c
+      0 [main] echo 7820 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_dcache_flush_all.c...
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_dcache_flush_all.o HAL/src/alt_dcache_flush_all.c
+      0 [main] mkdir 18604 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_dcache_flush_no_writeback.c...
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_dcache_flush_no_writeback.o HAL/src/alt_dcache_flush_no_writeback.c
+Compiling alt_dev.c...
+      0 [main] echo 13768 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_dev.o HAL/src/alt_dev.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_dev_llist_insert.c...
+      0 [main] mkdir 13232 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 12012 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_dev_llist_insert.o HAL/src/alt_dev_llist_insert.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_dma_rxchan_open.c...
+      0 [main] mkdir 15684 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_dma_rxchan_open.o HAL/src/alt_dma_rxchan_open.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_dma_txchan_open.c...
+      0 [main] echo 18188 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 6956 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 7360 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 6976 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_dma_txchan_open.o HAL/src/alt_dma_txchan_open.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_do_ctors.c...
+      0 [main] echo 14672 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_do_ctors.o HAL/src/alt_do_ctors.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_do_dtors.c...
+      0 [main] mkdir 11020 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 3196 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 16216 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_do_dtors.o HAL/src/alt_do_dtors.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_environ.c...
+      1 [main] echo 13816 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_environ.o HAL/src/alt_environ.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_errno.c...
+      0 [main] mkdir 18308 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 18552 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 16012 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 19256 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_errno.o HAL/src/alt_errno.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_exception_entry.S...
+      0 [main] mkdir 7020 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+     14 [main] echo 4508 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -MP -MMD -c -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx    -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -Wa,-gdwarf2  -o obj/HAL/src/alt_exception_entry.o HAL/src/alt_exception_entry.S
+the public mailing list cygwin@cygwin.com
+Compiling alt_exception_muldiv.S...
+      0 [main] mkdir 8332 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -MP -MMD -c -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx    -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -Wa,-gdwarf2  -o obj/HAL/src/alt_exception_muldiv.o HAL/src/alt_exception_muldiv.S
+the public mailing list cygwin@cygwin.com
+Compiling alt_exception_trap.S...
+      0 [main] echo 2684 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 10124 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -MP -MMD -c -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx    -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -Wa,-gdwarf2  -o obj/HAL/src/alt_exception_trap.o HAL/src/alt_exception_trap.S
+the public mailing list cygwin@cygwin.com
+Compiling alt_execve.c...
+      0 [main] echo 15460 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_execve.o HAL/src/alt_execve.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_exit.c...
+      0 [main] mkdir 15140 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 8668 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_exit.o HAL/src/alt_exit.c
+      0 [main] mkdir 15104 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_fcntl.c...
+      0 [main] echo 11444 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 13124 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_fcntl.o HAL/src/alt_fcntl.c
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 16552 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_fd_lock.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 12264 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 12916 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 15856 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_fd_lock.o HAL/src/alt_fd_lock.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_fd_unlock.c...
+      0 [main] echo 12136 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 6084 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_fd_unlock.o HAL/src/alt_fd_unlock.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_find_dev.c...
+      0 [main] echo 5636 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 7640 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_find_dev.o HAL/src/alt_find_dev.c
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 19220 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_find_file.c...
+      1 [main] mkdir 15116 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_find_file.o HAL/src/alt_find_file.c
+      0 [main] echo 4244 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_flash_dev.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 14488 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_flash_dev.o HAL/src/alt_flash_dev.c
+      1 [main] echo 17896 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_fork.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 15236 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_fork.o HAL/src/alt_fork.c
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 7428 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_fs_reg.c...
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_fs_reg.o HAL/src/alt_fs_reg.c
+      0 [main] mkdir 18872 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_fstat.c...
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_fstat.o HAL/src/alt_fstat.c
+      0 [main] echo 12348 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_get_fd.c...
+      0 [main] mkdir 18460 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_get_fd.o HAL/src/alt_get_fd.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_getchar.c...
+      1 [main] echo 16688 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 15668 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_getchar.o HAL/src/alt_getchar.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_getpid.c...
+      0 [main] echo 19088 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 12452 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_getpid.o HAL/src/alt_getpid.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_gettod.c...
+      1 [main] echo 12708 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 1816 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_gettod.o HAL/src/alt_gettod.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_gmon.c...
+      0 [main] echo 4848 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_gmon.o HAL/src/alt_gmon.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_icache_flush.c...
+      1 [main] mkdir 3056 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 7732 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 15420 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_icache_flush.o HAL/src/alt_icache_flush.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_icache_flush_all.c...
+      0 [main] echo 10320 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_icache_flush_all.o HAL/src/alt_icache_flush_all.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_iic.c...
+      1 [main] mkdir 8680 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 15752 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_iic.o HAL/src/alt_iic.c
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 15228 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_iic_isr_register.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 10352 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 13352 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 17268 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_iic_isr_register.o HAL/src/alt_iic_isr_register.c
+Compiling alt_instruction_exception_entry.c...
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_instruction_exception_entry.o HAL/src/alt_instruction_exception_entry.c
+Compiling alt_instruction_exception_register.c...
+      0 [main] mkdir 8560 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 5312 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_instruction_exception_register.o HAL/src/alt_instruction_exception_register.c
+      0 [main] mkdir 7892 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_io_redirect.c...
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_io_redirect.o HAL/src/alt_io_redirect.c
+      0 [main] echo 6088 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_ioctl.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 15964 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 11964 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 6984 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_ioctl.o HAL/src/alt_ioctl.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_irq_entry.S...
+      0 [main] echo 2936 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 19084 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 7108 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -MP -MMD -c -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx    -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -Wa,-gdwarf2  -o obj/HAL/src/alt_irq_entry.o HAL/src/alt_irq_entry.S
+the public mailing list cygwin@cygwin.com
+Compiling alt_irq_handler.c...
+      0 [main] mkdir 18248 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_irq_handler.o HAL/src/alt_irq_handler.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_irq_register.c...
+      0 [main] echo 3552 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_irq_register.o HAL/src/alt_irq_register.c
+      0 [main] mkdir 14760 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_irq_vars.c...
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_irq_vars.o HAL/src/alt_irq_vars.c
+Compiling alt_isatty.c...
+      0 [main] echo 8212 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 880 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 18380 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_isatty.o HAL/src/alt_isatty.c
+      0 [main] mkdir 2288 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      8 [main] echo 15212 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 10140 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_kill.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 8552 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 10056 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_kill.o HAL/src/alt_kill.c
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 16024 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_link.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 7948 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_link.o HAL/src/alt_link.c
+      1 [main] echo 1560 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_load.c...
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_load.o HAL/src/alt_load.c
+     87 [main] mkdir 18428 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 15692 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_log_macro.S...
+the public mailing list cygwin@cygwin.com
+    179 [main] mkdir 18904 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -MP -MMD -c -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx    -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -Wa,-gdwarf2  -o obj/HAL/src/alt_log_macro.o HAL/src/alt_log_macro.S
+      0 [main] echo 13580 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_log_printf.c...
+      0 [main] mkdir 15804 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_log_printf.o HAL/src/alt_log_printf.c
+      0 [main] echo 14408 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_lseek.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 1324 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_lseek.o HAL/src/alt_lseek.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_main.c...
+      1 [main] echo 16704 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 15532 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_main.o HAL/src/alt_main.c
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 18128 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_mcount.S...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 16088 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -MP -MMD -c -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx    -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -Wa,-gdwarf2  -o obj/HAL/src/alt_mcount.o HAL/src/alt_mcount.S
+      4 [main] echo 2380 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_open.c...
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_open.o HAL/src/alt_open.c
+      1 [main] mkdir 14348 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_printf.c...
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_printf.o HAL/src/alt_printf.c
+      0 [main] echo 18884 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_putchar.c...
+      0 [main] mkdir 14524 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_putchar.o HAL/src/alt_putchar.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_putstr.c...
+      0 [main] echo 14788 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 11176 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_putstr.o HAL/src/alt_putstr.c
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 17472 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_read.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 10168 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 5260 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_read.o HAL/src/alt_read.c
+      1 [main] mkdir 15652 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 2912 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_release_fd.c...
+      1 [main] mkdir 13240 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_release_fd.o HAL/src/alt_release_fd.c
+      0 [main] echo 14168 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_remap_cached.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 10884 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_remap_cached.o HAL/src/alt_remap_cached.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_remap_uncached.c...
+      0 [main] echo 14244 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_remap_uncached.o HAL/src/alt_remap_uncached.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_rename.c...
+      0 [main] mkdir 9332 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_rename.o HAL/src/alt_rename.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_sbrk.c...
+      0 [main] echo 16988 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_sbrk.o HAL/src/alt_sbrk.c
+      0 [main] mkdir 16888 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_settod.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 12884 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 6344 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_settod.o HAL/src/alt_settod.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_software_exception.S...
+      0 [main] echo 6352 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 13488 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -MP -MMD -c -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx    -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -Wa,-gdwarf2  -o obj/HAL/src/alt_software_exception.o HAL/src/alt_software_exception.S
+the public mailing list cygwin@cygwin.com
+Compiling alt_stat.c...
+      0 [main] echo 8884 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_stat.o HAL/src/alt_stat.c
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 1812 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_tick.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 17228 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 19224 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 8540 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_tick.o HAL/src/alt_tick.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_times.c...
+      1 [main] mkdir 16832 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 16360 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_times.o HAL/src/alt_times.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_uncached_free.c...
+      0 [main] mkdir 10540 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 1544 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_uncached_free.o HAL/src/alt_uncached_free.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_uncached_malloc.c...
+      0 [main] mkdir 7196 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_uncached_malloc.o HAL/src/alt_uncached_malloc.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_unlink.c...
+      1 [main] echo 13388 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 15448 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_unlink.o HAL/src/alt_unlink.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_usleep.c...
+      0 [main] echo 14488 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_usleep.o HAL/src/alt_usleep.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_wait.c...
+      1 [main] mkdir 11284 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 12020 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_wait.o HAL/src/alt_wait.c
+      0 [main] mkdir 15236 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_write.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 17660 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 18872 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/alt_write.o HAL/src/alt_write.c
+      0 [main] echo 7568 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling altera_nios2_qsys_irq.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 10100 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 16000 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/altera_nios2_qsys_irq.o HAL/src/altera_nios2_qsys_irq.c
+the public mailing list cygwin@cygwin.com
+Compiling crt0.S...
+      3 [main] mkdir 2252 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -MP -MMD -c -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx    -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -Wa,-gdwarf2  -o obj/HAL/src/crt0.o HAL/src/crt0.S
+the public mailing list cygwin@cygwin.com
+Compiling os_cpu_a.S...
+      0 [main] echo 8948 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 18756 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -MP -MMD -c -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx    -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -Wa,-gdwarf2  -o obj/HAL/src/os_cpu_a.o HAL/src/os_cpu_a.S
+the public mailing list cygwin@cygwin.com
+Compiling os_cpu_c.c...
+      1 [main] echo 11964 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/HAL/src/os_cpu_c.o HAL/src/os_cpu_c.c
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 15016 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_env_lock.c...
+      0 [main] echo 15008 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 16824 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 9612 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 19164 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/UCOSII/src/alt_env_lock.o UCOSII/src/alt_env_lock.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_malloc_lock.c...
+      0 [main] echo 14760 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+     46 [main] mkdir 9396 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/UCOSII/src/alt_malloc_lock.o UCOSII/src/alt_malloc_lock.c
+the public mailing list cygwin@cygwin.com
+Compiling os_core.c...
+      0 [main] echo 11728 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 1068 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/UCOSII/src/os_core.o UCOSII/src/os_core.c
+      0 [main] echo 9256 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling os_dbg.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 10656 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/UCOSII/src/os_dbg.o UCOSII/src/os_dbg.c
+      0 [main] echo 10200 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling os_flag.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 8844 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/UCOSII/src/os_flag.o UCOSII/src/os_flag.c
+      0 [main] echo 10080 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling os_mbox.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 19396 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/UCOSII/src/os_mbox.o UCOSII/src/os_mbox.c
+      0 [main] echo 10196 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling os_mem.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 6160 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/UCOSII/src/os_mem.o UCOSII/src/os_mem.c
+      0 [main] echo 9292 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling os_mutex.c...
+      1 [main] mkdir 6176 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/UCOSII/src/os_mutex.o UCOSII/src/os_mutex.c
+      0 [main] echo 13580 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling os_q.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 3484 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/UCOSII/src/os_q.o UCOSII/src/os_q.c
+      1 [main] echo 7692 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling os_sem.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 4904 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/UCOSII/src/os_sem.o UCOSII/src/os_sem.c
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 8580 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling os_task.c...
+      0 [main] mkdir 17092 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/UCOSII/src/os_task.o UCOSII/src/os_task.c
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 10564 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling os_time.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 14156 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/UCOSII/src/os_time.o UCOSII/src/os_time.c
+      0 [main] echo 12844 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling os_tmr.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 9600 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/UCOSII/src/os_tmr.o UCOSII/src/os_tmr.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_sys_init.c...
+      0 [main] echo 15684 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 4348 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/alt_sys_init.o alt_sys_init.c
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 12840 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling altera_avalon_cfi_flash.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 8084 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_cfi_flash.o drivers/src/altera_avalon_cfi_flash.c
+      0 [main] echo 7360 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling altera_avalon_cfi_flash_amd.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 16676 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_cfi_flash_amd.o drivers/src/altera_avalon_cfi_flash_amd.c
+      0 [main] echo 10160 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling altera_avalon_cfi_flash_intel.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 13616 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_cfi_flash_intel.o drivers/src/altera_avalon_cfi_flash_intel.c
+the public mailing list cygwin@cygwin.com
+Compiling altera_avalon_cfi_flash_table.c...
+      0 [main] echo 3820 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_cfi_flash_table.o drivers/src/altera_avalon_cfi_flash_table.c
+the public mailing list cygwin@cygwin.com
+Compiling altera_avalon_epcs_flash_controller.c...
+      1 [main] mkdir 12088 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 10188 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_epcs_flash_controller.o drivers/src/altera_avalon_epcs_flash_controller.c
+      0 [main] mkdir 13628 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling altera_avalon_jtag_uart_fd.c...
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_jtag_uart_fd.o drivers/src/altera_avalon_jtag_uart_fd.c
+      1 [main] echo 15784 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling altera_avalon_jtag_uart_init.c...
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_jtag_uart_init.o drivers/src/altera_avalon_jtag_uart_init.c
+      0 [main] mkdir 11876 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling altera_avalon_jtag_uart_ioctl.c...
+      3 [main] echo 12472 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_jtag_uart_ioctl.o drivers/src/altera_avalon_jtag_uart_ioctl.c
+      0 [main] mkdir 15840 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling altera_avalon_jtag_uart_read.c...
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_jtag_uart_read.o drivers/src/altera_avalon_jtag_uart_read.c
+      0 [main] echo 8332 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 6376 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 9896 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling altera_avalon_jtag_uart_write.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 12628 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_jtag_uart_write.o drivers/src/altera_avalon_jtag_uart_write.c
+     14 [main] echo 8668 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling altera_avalon_lcd_16207.c...
+      0 [main] mkdir 6352 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_lcd_16207.o drivers/src/altera_avalon_lcd_16207.c
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 16036 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 16328 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling altera_avalon_lcd_16207_fd.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 1348 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 8884 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_lcd_16207_fd.o drivers/src/altera_avalon_lcd_16207_fd.c
+Compiling altera_avalon_spi.c...
+      0 [main] echo 16752 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_spi.o drivers/src/altera_avalon_spi.c
+the public mailing list cygwin@cygwin.com
+Compiling altera_avalon_sysid_qsys.c...
+      0 [main] mkdir 16592 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_sysid_qsys.o drivers/src/altera_avalon_sysid_qsys.c
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 16224 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling altera_avalon_timer_sc.c...
+      2 [main] mkdir 12780 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_timer_sc.o drivers/src/altera_avalon_timer_sc.c
+      0 [main] echo 15944 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling altera_avalon_timer_ts.c...
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_timer_ts.o drivers/src/altera_avalon_timer_ts.c
+      0 [main] mkdir 19076 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling altera_avalon_timer_vars.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 10828 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 10396 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_timer_vars.o drivers/src/altera_avalon_timer_vars.c
+the public mailing list cygwin@cygwin.com
+Compiling altera_avalon_uart_fd.c...
+      0 [main] echo 13752 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_uart_fd.o drivers/src/altera_avalon_uart_fd.c
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 11928 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling altera_avalon_uart_init.c...
+      0 [main] echo 19312 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 14092 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_uart_init.o drivers/src/altera_avalon_uart_init.c
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 15136 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling altera_avalon_uart_ioctl.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 8044 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 12040 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_uart_ioctl.o drivers/src/altera_avalon_uart_ioctl.c
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 16724 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling altera_avalon_uart_read.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 8420 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 15476 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_uart_read.o drivers/src/altera_avalon_uart_read.c
+the public mailing list cygwin@cygwin.com
+Compiling altera_avalon_uart_write.c...
+      0 [main] echo 6984 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 19152 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_uart_write.o drivers/src/altera_avalon_uart_write.c
+      0 [main] echo 14868 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling epcs_commands.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 18180 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/drivers/src/epcs_commands.o drivers/src/epcs_commands.c
+      0 [main] echo 1700 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling allports.c...
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/allports/allports.o iniche/src/allports/allports.c
+      0 [main] mkdir 8780 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 1724 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling timeouts.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 18164 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/allports/timeouts.o iniche/src/allports/timeouts.c
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 9320 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling tk_misc.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 15256 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/allports/tk_misc.o iniche/src/allports/tk_misc.c
+      0 [main] echo 18808 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_iniche_close.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 5164 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/alt_iniche_close.o iniche/src/alt_iniche_close.c
+      0 [main] echo 11072 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_iniche_dev.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 10356 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/alt_iniche_dev.o iniche/src/alt_iniche_dev.c
+      0 [main] echo 2576 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_iniche_fcntl.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 4668 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/alt_iniche_fcntl.o iniche/src/alt_iniche_fcntl.c
+      1 [main] echo 7948 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_iniche_read.c...
+      1 [main] mkdir 10500 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/alt_iniche_read.o iniche/src/alt_iniche_read.c
+      0 [main] echo 10328 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_iniche_write.c...
+      0 [main] mkdir 6780 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/alt_iniche_write.o iniche/src/alt_iniche_write.c
+      0 [main] echo 9664 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling autoip.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 14248 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/autoip4/autoip.o iniche/src/autoip4/autoip.c
+      0 [main] echo 12064 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling upnp.c...
+      0 [main] mkdir 3340 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/autoip4/upnp.o iniche/src/autoip4/upnp.c
+      0 [main] echo 11376 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling upnpmenu.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 13548 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/autoip4/upnpmenu.o iniche/src/autoip4/upnpmenu.c
+      1 [main] echo 17096 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling ftpclnt.c...
+      0 [main] mkdir 18604 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/ftp/ftpclnt.o iniche/src/ftp/ftpclnt.c
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 7176 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling ftpcport.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 13408 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/ftp/ftpcport.o iniche/src/ftp/ftpcport.c
+      0 [main] echo 4240 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling ftpcprn.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 19420 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/ftp/ftpcprn.o iniche/src/ftp/ftpcprn.c
+      0 [main] echo 16996 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling ftpmenu.c...
+      1 [main] mkdir 15988 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/ftp/ftpmenu.o iniche/src/ftp/ftpmenu.c
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 15644 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling ftpsport.c...
+      0 [main] mkdir 9916 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/ftp/ftpsport.o iniche/src/ftp/ftpsport.c
+      0 [main] echo 9172 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling ftpsrv.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 7360 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/ftp/ftpsrv.o iniche/src/ftp/ftpsrv.c
+      0 [main] echo 5696 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling ftpssock.c...
+      0 [main] mkdir 10956 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/ftp/ftpssock.o iniche/src/ftp/ftpssock.c
+      0 [main] echo 12156 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling ftpsvfs.c...
+the public mailing list cygwin@cygwin.com
+     10 [main] mkdir 19256 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/ftp/ftpsvfs.o iniche/src/ftp/ftpsvfs.c
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 13240 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling et_arp.c...
+      0 [main] mkdir 4508 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/ip/et_arp.o iniche/src/ip/et_arp.c
+      0 [main] echo 9056 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling icmp.c...
+      1 [main] mkdir 9344 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/ip/icmp.o iniche/src/ip/icmp.c
+      1 [main] echo 17948 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling iface.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 6788 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/ip/iface.o iniche/src/ip/iface.c
+      0 [main] echo 17364 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling ip.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 19128 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/ip/ip.o iniche/src/ip/ip.c
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 3124 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling ip_reasm.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 12568 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/ip/ip_reasm.o iniche/src/ip/ip_reasm.c
+      1 [main] echo 16956 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling ipdemux.c...
+      0 [main] mkdir 13868 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/ip/ipdemux.o iniche/src/ip/ipdemux.c
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 12104 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling ipmc.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 7144 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/ip/ipmc.o iniche/src/ip/ipmc.c
+      1 [main] echo 18068 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling ipnet.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 19180 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/ip/ipnet.o iniche/src/ip/ipnet.c
+      0 [main] echo 12556 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling ipport.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 10620 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/ip/ipport.o iniche/src/ip/ipport.c
+      0 [main] echo 13368 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling ipraw.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 17316 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/ip/ipraw.o iniche/src/ip/ipraw.c
+      0 [main] echo 13088 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling iproute.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 17612 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/ip/iproute.o iniche/src/ip/iproute.c
+      0 [main] echo 18632 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling ipstart.c...
+      0 [main] mkdir 8032 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/ip/ipstart.o iniche/src/ip/ipstart.c
+      0 [main] echo 5088 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling pmtu.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 18916 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/ip/pmtu.o iniche/src/ip/pmtu.c
+      0 [main] echo 7188 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling rtbtree.c...
+      0 [main] mkdir 4328 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/ip/rtbtree.o iniche/src/ip/rtbtree.c
+      0 [main] echo 5312 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling udp.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 16648 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/ip/udp.o iniche/src/ip/udp.c
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 2088 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling igmp.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 6848 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/ipmc/igmp.o iniche/src/ipmc/igmp.c
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 17452 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling igmp2.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 10496 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/ipmc/igmp2.o iniche/src/ipmc/igmp2.c
+      0 [main] echo 16540 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling igmp_cmn.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 2252 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/ipmc/igmp_cmn.o iniche/src/ipmc/igmp_cmn.c
+      0 [main] echo 19008 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling ipopt.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 8228 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/ipmc/ipopt.o iniche/src/ipmc/ipopt.c
+      0 [main] echo 12888 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling u_mctest.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 12144 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/ipmc/u_mctest.o iniche/src/ipmc/u_mctest.c
+      0 [main] echo 15324 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling app_ping.c...
+      0 [main] mkdir 19164 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/app_ping.o iniche/src/misclib/app_ping.c
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 14856 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling bsdsock.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 8864 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/bsdsock.o iniche/src/misclib/bsdsock.c
+      0 [main] echo 18704 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling cksum.c...
+      0 [main] mkdir 7852 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/cksum.o iniche/src/misclib/cksum.c
+      0 [main] echo 2856 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling cu_srv.c...
+      0 [main] mkdir 8552 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/cu_srv.o iniche/src/misclib/cu_srv.c
+      0 [main] echo 2012 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling dhcsetup.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 16024 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/dhcsetup.o iniche/src/misclib/dhcsetup.c
+      0 [main] echo 10196 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling genlist.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 16248 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/genlist.o iniche/src/misclib/genlist.c
+      1 [main] echo 18904 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling in_utils.c...
+      0 [main] mkdir 17796 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/in_utils.o iniche/src/misclib/in_utils.c
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 17792 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling iniche_log.c...
+      0 [main] mkdir 15400 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/iniche_log.o iniche/src/misclib/iniche_log.c
+      0 [main] echo 11068 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling iniche_qsort.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 13448 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/iniche_qsort.o iniche/src/misclib/iniche_qsort.c
+the public mailing list cygwin@cygwin.com
+Compiling localtime.c...
+      0 [main] echo 16588 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 7460 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/localtime.o iniche/src/misclib/localtime.c
+      0 [main] echo 18484 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling memdev.c...
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/memdev.o iniche/src/misclib/memdev.c
+      0 [main] mkdir 576 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling memio.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 14156 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 8860 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/memio.o iniche/src/misclib/memio.c
+      0 [main] echo 15520 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling memwrap.c...
+      1 [main] mkdir 32 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/memwrap.o iniche/src/misclib/memwrap.c
+      0 [main] echo 16272 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling menulib.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 18684 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/menulib.o iniche/src/misclib/menulib.c
+      0 [main] echo 15776 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling menus.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 14456 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/menus.o iniche/src/misclib/menus.c
+      0 [main] echo 8820 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling msring.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 16180 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/msring.o iniche/src/misclib/msring.c
+      0 [main] echo 12688 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling netmain.c...
+      1 [main] mkdir 10168 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/netmain.o iniche/src/misclib/netmain.c
+      0 [main] echo 18544 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling nextcarg.c...
+      0 [main] mkdir 19264 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/nextcarg.o iniche/src/misclib/nextcarg.c
+      0 [main] echo 17476 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling nrmenus.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 17528 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/nrmenus.o iniche/src/misclib/nrmenus.c
+      0 [main] echo 15848 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling nvfsio.c...
+      0 [main] mkdir 5604 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/nvfsio.o iniche/src/misclib/nvfsio.c
+the public mailing list cygwin@cygwin.com
+Compiling nvparms.c...
+      0 [main] echo 10460 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 3164 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/nvparms.o iniche/src/misclib/nvparms.c
+the public mailing list cygwin@cygwin.com
+Compiling parseip.c...
+      0 [main] echo 12112 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 7756 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/parseip.o iniche/src/misclib/parseip.c
+      0 [main] echo 17276 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling pcycles.c...
+      0 [main] mkdir 10756 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/pcycles.o iniche/src/misclib/pcycles.c
+      0 [main] echo 14624 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling profiler.c...
+      0 [main] mkdir 10048 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/profiler.o iniche/src/misclib/profiler.c
+     11 [main] echo 6960 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling rawiptst.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 13868 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/rawiptst.o iniche/src/misclib/rawiptst.c
+      0 [main] echo 1812 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling reshost.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 7144 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/reshost.o iniche/src/misclib/reshost.c
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 15856 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling rfsim.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 19180 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/rfsim.o iniche/src/misclib/rfsim.c
+      0 [main] echo 8416 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling rttest.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 19220 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/rttest.o iniche/src/misclib/rttest.c
+      0 [main] echo 2168 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling soperr.c...
+      1 [main] mkdir 15368 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/soperr.o iniche/src/misclib/soperr.c
+      0 [main] echo 14340 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling strilib.c...
+      0 [main] mkdir 14328 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/strilib.o iniche/src/misclib/strilib.c
+      0 [main] echo 18740 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling strlib.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 12228 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/strlib.o iniche/src/misclib/strlib.c
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 16976 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling strtol.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 17992 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/strtol.o iniche/src/misclib/strtol.c
+      0 [main] echo 11928 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling syslog.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 8936 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/syslog.o iniche/src/misclib/syslog.c
+      0 [main] echo 8044 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling task.c...
+      0 [main] mkdir 4244 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/task.o iniche/src/misclib/task.c
+      0 [main] echo 16724 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling tcp_echo.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 8932 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/tcp_echo.o iniche/src/misclib/tcp_echo.c
+      0 [main] echo 440 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling tcpcksum.c...
+      0 [main] mkdir 10104 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/tcpcksum.o iniche/src/misclib/tcpcksum.c
+      0 [main] echo 14012 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling testmenu.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 10660 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/testmenu.o iniche/src/misclib/testmenu.c
+      0 [main] echo 14860 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling tk_crnos.c...
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/tk_crnos.o iniche/src/misclib/tk_crnos.c
+      0 [main] mkdir 16256 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 19204 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling ttyio.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 18248 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/ttyio.o iniche/src/misclib/ttyio.c
+      0 [main] echo 13664 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling udp_echo.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 9396 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/udp_echo.o iniche/src/misclib/udp_echo.c
+the public mailing list cygwin@cygwin.com
+Compiling userpass.c...
+      0 [main] echo 16080 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 19412 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/misclib/userpass.o iniche/src/misclib/userpass.c
+      0 [main] echo 12432 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling dhcpclnt.c...
+      0 [main] mkdir 10140 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/net/dhcpclnt.o iniche/src/net/dhcpclnt.c
+      0 [main] echo 17000 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling dhcputil.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 8552 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/net/dhcputil.o iniche/src/net/dhcputil.c
+      0 [main] echo 19396 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling dnsclnt.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 16024 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/net/dnsclnt.o iniche/src/net/dnsclnt.c
+      0 [main] echo 17920 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling ifmap.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 3808 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/net/ifmap.o iniche/src/net/ifmap.c
+      0 [main] echo 14820 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling macloop.c...
+      1 [main] mkdir 6092 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/net/macloop.o iniche/src/net/macloop.c
+      0 [main] echo 17024 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling ping.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 15400 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/net/ping.o iniche/src/net/ping.c
+      0 [main] echo 16288 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling pktalloc.c...
+      0 [main] mkdir 3152 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/net/pktalloc.o iniche/src/net/pktalloc.c
+      0 [main] echo 17092 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling q.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 7460 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/net/q.o iniche/src/net/q.c
+      0 [main] echo 13660 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling slip.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 17828 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/net/slip.o iniche/src/net/slip.c
+      0 [main] echo 18188 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling slipif.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 5364 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/net/slipif.o iniche/src/net/slipif.c
+      0 [main] echo 10324 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling udp_open.c...
+      0 [main] mkdir 8988 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/net/udp_open.o iniche/src/net/udp_open.c
+      0 [main] echo 13032 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling asm_cksum.S...
+      1 [main] mkdir 6464 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -MP -MMD -c -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx    -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -Wa,-gdwarf2  -o obj/iniche/src/nios2/asm_cksum.o iniche/src/nios2/asm_cksum.S
+      1 [main] echo 16524 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling brdutils.c...
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/nios2/brdutils.o iniche/src/nios2/brdutils.c
+      1 [main] mkdir 9388 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling osportco.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 3120 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 13616 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/nios2/osportco.o iniche/src/nios2/osportco.c
+the public mailing list cygwin@cygwin.com
+iniche/src/nios2/osportco.c: In function 'TK_NEWTASK':
+iniche/src/nios2/osportco.c:282: warning: pointer targets in passing argument 2 of 'OSTaskNameGet' differ in signedness
+Compiling targnios.c...
+iniche/src/nios2/osportco.c:313: warning: pointer targets in passing argument 2 of 'OSTaskNameSet' differ in signedness
+      0 [main] echo 7564 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 17056 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/nios2/targnios.o iniche/src/nios2/targnios.c
+      0 [main] echo 7944 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling in_pcb.c...
+      0 [main] mkdir 14828 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/tcp/in_pcb.o iniche/src/tcp/in_pcb.c
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 4508 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling nptcp.c...
+      0 [main] mkdir 1396 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/tcp/nptcp.o iniche/src/tcp/nptcp.c
+      0 [main] echo 9960 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling rawsock.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 14648 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/tcp/rawsock.o iniche/src/tcp/rawsock.c
+      0 [main] echo 14800 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling sockcall.c...
+      0 [main] mkdir 2272 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/tcp/sockcall.o iniche/src/tcp/sockcall.c
+      0 [main] echo 19036 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling socket.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 18952 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/tcp/socket.o iniche/src/tcp/socket.c
+      0 [main] echo 1492 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling socket2.c...
+      0 [main] mkdir 13560 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/tcp/socket2.o iniche/src/tcp/socket2.c
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 1820 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling soselect.c...
+      0 [main] mkdir 12212 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/tcp/soselect.o iniche/src/tcp/soselect.c
+      0 [main] echo 10084 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling tcp_in.c...
+      1 [main] mkdir 12264 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/tcp/tcp_in.o iniche/src/tcp/tcp_in.c
+      0 [main] echo 18840 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling tcp_menu.c...
+      0 [main] mkdir 8884 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/tcp/tcp_menu.o iniche/src/tcp/tcp_menu.c
+      0 [main] echo 16052 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling tcp_out.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 13016 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/tcp/tcp_out.o iniche/src/tcp/tcp_out.c
+      0 [main] echo 19220 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling tcp_subr.c...
+      0 [main] mkdir 14784 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/tcp/tcp_subr.o iniche/src/tcp/tcp_subr.c
+      0 [main] echo 15368 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling tcp_timr.c...
+      0 [main] mkdir 9168 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/tcp/tcp_timr.o iniche/src/tcp/tcp_timr.c
+      0 [main] echo 14328 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling tcp_usr.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 18400 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/tcp/tcp_usr.o iniche/src/tcp/tcp_usr.c
+      0 [main] echo 12228 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling tcp_zio.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 7776 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/tcp/tcp_zio.o iniche/src/tcp/tcp_zio.c
+      0 [main] echo 17992 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling tcpport.c...
+      0 [main] mkdir 10024 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/tcp/tcpport.o iniche/src/tcp/tcpport.c
+      1 [main] echo 8936 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling tcpsack.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 10232 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/tcp/tcpsack.o iniche/src/tcp/tcpsack.c
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 4244 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling udpsock.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 18776 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/tcp/udpsock.o iniche/src/tcp/udpsock.c
+      0 [main] echo 8932 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling telerr.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 15964 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/telnet/telerr.o iniche/src/telnet/telerr.c
+      0 [main] echo 10104 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling telmenu.c...
+      0 [main] mkdir 7108 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/telnet/telmenu.o iniche/src/telnet/telmenu.c
+      0 [main] echo 18180 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling telnet.c...
+      0 [main] mkdir 8228 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/telnet/telnet.o iniche/src/telnet/telnet.c
+      0 [main] echo 14304 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling telparse.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 17420 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/telnet/telparse.o iniche/src/telnet/telparse.c
+      0 [main] echo 18236 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling telport.c...
+      0 [main] mkdir 19164 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/telnet/telport.o iniche/src/telnet/telport.c
+      0 [main] echo 15256 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling tftpcli.c...
+      0 [main] mkdir 8864 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/tftp/tftpcli.o iniche/src/tftp/tftpcli.c
+      0 [main] echo 5164 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling tftpmenu.c...
+      0 [main] mkdir 17256 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/tftp/tftpmenu.o iniche/src/tftp/tftpmenu.c
+      0 [main] echo 10140 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling tftpport.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 16916 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/tftp/tftpport.o iniche/src/tftp/tftpport.c
+      0 [main] echo 7636 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling tftpsrv.c...
+      0 [main] mkdir 18220 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/tftp/tftpsrv.o iniche/src/tftp/tftpsrv.c
+      0 [main] echo 11412 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling tftpudp.c...
+      0 [main] mkdir 16248 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/tftp/tftpudp.o iniche/src/tftp/tftpudp.c
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 9664 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling tftputil.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 8816 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/tftp/tftputil.o iniche/src/tftp/tftputil.c
+      0 [main] echo 9980 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling vfsfiles.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 15172 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/vfs/vfsfiles.o iniche/src/vfs/vfsfiles.c
+      0 [main] echo 13928 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling vfsport.c...
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 9228 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/vfs/vfsport.o iniche/src/vfs/vfsport.c
+      0 [main] echo 4436 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling vfssync.c...
+      0 [main] mkdir 16704 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/vfs/vfssync.o iniche/src/vfs/vfssync.c
+      0 [main] echo 18604 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling vfsutil.c...
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 7460 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./iniche/inc -I./iniche/src/h -I./iniche/src/h/nios2 -I./iniche/src/nios2 -I./UCOSII/inc -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__  -DTSE_MY_SYSTEM  -O0 -g -Wall  -EL -mno-hw-div -mhw-mul -mno-hw-mulx   -o obj/iniche/src/vfs/vfsutil.o iniche/src/vfs/vfsutil.c
+      0 [main] echo 13232 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Creating libucosii_bsp.a...
+the public mailing list cygwin@cygwin.com
+rm -f -f libucosii_bsp.a
+      1 [main] rm 10372 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-ar -src libucosii_bsp.a obj/HAL/src/alt_alarm_start.o obj/HAL/src/alt_busy_sleep.o obj/HAL/src/alt_close.o obj/HAL/src/alt_dcache_flush.o obj/HAL/src/alt_dcache_flush_all.o obj/HAL/src/alt_dcache_flush_no_writeback.o obj/HAL/src/alt_dev.o obj/HAL/src/alt_dev_llist_insert.o obj/HAL/src/alt_dma_rxchan_open.o obj/HAL/src/alt_dma_txchan_open.o obj/HAL/src/alt_do_ctors.o obj/HAL/src/alt_do_dtors.o obj/HAL/src/alt_environ.o obj/HAL/src/alt_errno.o obj/HAL/src/alt_exception_entry.o obj/HAL/src/alt_exception_muldiv.o obj/HAL/src/alt_exception_trap.o obj/HAL/src/alt_execve.o obj/HAL/src/alt_exit.o obj/HAL/src/alt_fcntl.o obj/HAL/src/alt_fd_lock.o obj/HAL/src/alt_fd_unlock.o obj/HAL/src/alt_find_dev.o obj/HAL/src/alt_find_file.o obj/HAL/src/alt_flash_dev.o obj/HAL/src/alt_fork.o obj/HAL/src/alt_fs_reg.o obj/HAL/src/alt_fstat.o obj/HAL/src/alt_get_fd.o obj/HAL/src/alt_getchar.o obj/HAL/src/alt_getpid.o obj/HAL/src/alt_gettod.o obj/HAL/src/alt_gmon.o obj/HAL/src/alt_icache_flush.o obj/HAL/src/alt_icache_flush_all.o obj/HAL/src/alt_iic.o obj/HAL/src/alt_iic_isr_register.o obj/HAL/src/alt_instruction_exception_entry.o obj/HAL/src/alt_instruction_exception_register.o obj/HAL/src/alt_io_redirect.o obj/HAL/src/alt_ioctl.o obj/HAL/src/alt_irq_entry.o obj/HAL/src/alt_irq_handler.o obj/HAL/src/alt_irq_register.o obj/HAL/src/alt_irq_vars.o obj/HAL/src/alt_isatty.o obj/HAL/src/alt_kill.o obj/HAL/src/alt_link.o obj/HAL/src/alt_load.o obj/HAL/src/alt_log_macro.o obj/HAL/src/alt_log_printf.o obj/HAL/src/alt_lseek.o obj/HAL/src/alt_main.o obj/HAL/src/alt_mcount.o obj/HAL/src/alt_open.o obj/HAL/src/alt_printf.o obj/HAL/src/alt_putchar.o obj/HAL/src/alt_putstr.o obj/HAL/src/alt_read.o obj/HAL/src/alt_release_fd.o obj/HAL/src/alt_remap_cached.o obj/HAL/src/alt_remap_uncached.o obj/HAL/src/alt_rename.o obj/HAL/src/alt_sbrk.o obj/HAL/src/alt_settod.o obj/HAL/src/alt_software_exception.o obj/HAL/src/alt_stat.o obj/HAL/src/alt_tick.o obj/HAL/src/alt_times.o obj/HAL/src/alt_uncached_free.o obj/HAL/src/alt_uncached_malloc.o obj/HAL/src/alt_unlink.o obj/HAL/src/alt_usleep.o obj/HAL/src/alt_wait.o obj/HAL/src/alt_write.o obj/HAL/src/altera_nios2_qsys_irq.o obj/HAL/src/crt0.o obj/HAL/src/os_cpu_a.o obj/HAL/src/os_cpu_c.o obj/UCOSII/src/alt_env_lock.o obj/UCOSII/src/alt_malloc_lock.o obj/UCOSII/src/os_core.o obj/UCOSII/src/os_dbg.o obj/UCOSII/src/os_flag.o obj/UCOSII/src/os_mbox.o obj/UCOSII/src/os_mem.o obj/UCOSII/src/os_mutex.o obj/UCOSII/src/os_q.o obj/UCOSII/src/os_sem.o obj/UCOSII/src/os_task.o obj/UCOSII/src/os_time.o obj/UCOSII/src/os_tmr.o obj/alt_sys_init.o obj/drivers/src/altera_avalon_cfi_flash.o obj/drivers/src/altera_avalon_cfi_flash_amd.o obj/drivers/src/altera_avalon_cfi_flash_intel.o obj/drivers/src/altera_avalon_cfi_flash_table.o obj/drivers/src/altera_avalon_epcs_flash_controller.o obj/drivers/src/altera_avalon_jtag_uart_fd.o obj/drivers/src/altera_avalon_jtag_uart_init.o obj/drivers/src/altera_avalon_jtag_uart_ioctl.o obj/drivers/src/altera_avalon_jtag_uart_read.o obj/drivers/src/altera_avalon_jtag_uart_write.o obj/drivers/src/altera_avalon_lcd_16207.o obj/drivers/src/altera_avalon_lcd_16207_fd.o obj/drivers/src/altera_avalon_spi.o obj/drivers/src/altera_avalon_sysid_qsys.o obj/drivers/src/altera_avalon_timer_sc.o obj/drivers/src/altera_avalon_timer_ts.o obj/drivers/src/altera_avalon_timer_vars.o obj/drivers/src/altera_avalon_uart_fd.o obj/drivers/src/altera_avalon_uart_init.o obj/drivers/src/altera_avalon_uart_ioctl.o obj/drivers/src/altera_avalon_uart_read.o obj/drivers/src/altera_avalon_uart_write.o obj/drivers/src/epcs_commands.o obj/iniche/src/allports/allports.o obj/iniche/src/allports/timeouts.o obj/iniche/src/allports/tk_misc.o obj/iniche/src/alt_iniche_close.o obj/iniche/src/alt_iniche_dev.o obj/iniche/src/alt_iniche_fcntl.o obj/iniche/src/alt_iniche_read.o obj/iniche/src/alt_iniche_write.o obj/iniche/src/autoip4/autoip.o obj/iniche/src/autoip4/upnp.o obj/iniche/src/autoip4/upnpmenu.o obj/iniche/src/ftp/ftpclnt.o obj/iniche/src/ftp/ftpcport.o obj/iniche/src/ftp/ftpcprn.o obj/iniche/src/ftp/ftpmenu.o obj/iniche/src/ftp/ftpsport.o obj/iniche/src/ftp/ftpsrv.o obj/iniche/src/ftp/ftpssock.o obj/iniche/src/ftp/ftpsvfs.o obj/iniche/src/ip/et_arp.o obj/iniche/src/ip/icmp.o obj/iniche/src/ip/iface.o obj/iniche/src/ip/ip.o obj/iniche/src/ip/ip_reasm.o obj/iniche/src/ip/ipdemux.o obj/iniche/src/ip/ipmc.o obj/iniche/src/ip/ipnet.o obj/iniche/src/ip/ipport.o obj/iniche/src/ip/ipraw.o obj/iniche/src/ip/iproute.o obj/iniche/src/ip/ipstart.o obj/iniche/src/ip/pmtu.o obj/iniche/src/ip/rtbtree.o obj/iniche/src/ip/udp.o obj/iniche/src/ipmc/igmp.o obj/iniche/src/ipmc/igmp2.o obj/iniche/src/ipmc/igmp_cmn.o obj/iniche/src/ipmc/ipopt.o obj/iniche/src/ipmc/u_mctest.o obj/iniche/src/misclib/app_ping.o obj/iniche/src/misclib/bsdsock.o obj/iniche/src/misclib/cksum.o obj/iniche/src/misclib/cu_srv.o obj/iniche/src/misclib/dhcsetup.o obj/iniche/src/misclib/genlist.o obj/iniche/src/misclib/in_utils.o obj/iniche/src/misclib/iniche_log.o obj/iniche/src/misclib/iniche_qsort.o obj/iniche/src/misclib/localtime.o obj/iniche/src/misclib/memdev.o obj/iniche/src/misclib/memio.o obj/iniche/src/misclib/memwrap.o obj/iniche/src/misclib/menulib.o obj/iniche/src/misclib/menus.o obj/iniche/src/misclib/msring.o obj/iniche/src/misclib/netmain.o obj/iniche/src/misclib/nextcarg.o obj/iniche/src/misclib/nrmenus.o obj/iniche/src/misclib/nvfsio.o obj/iniche/src/misclib/nvparms.o obj/iniche/src/misclib/parseip.o obj/iniche/src/misclib/pcycles.o obj/iniche/src/misclib/profiler.o obj/iniche/src/misclib/rawiptst.o obj/iniche/src/misclib/reshost.o obj/iniche/src/misclib/rfsim.o obj/iniche/src/misclib/rttest.o obj/iniche/src/misclib/soperr.o obj/iniche/src/misclib/strilib.o obj/iniche/src/misclib/strlib.o obj/iniche/src/misclib/strtol.o obj/iniche/src/misclib/syslog.o obj/iniche/src/misclib/task.o obj/iniche/src/misclib/tcp_echo.o obj/iniche/src/misclib/tcpcksum.o obj/iniche/src/misclib/testmenu.o obj/iniche/src/misclib/tk_crnos.o obj/iniche/src/misclib/ttyio.o obj/iniche/src/misclib/udp_echo.o obj/iniche/src/misclib/userpass.o obj/iniche/src/net/dhcpclnt.o obj/iniche/src/net/dhcputil.o obj/iniche/src/net/dnsclnt.o obj/iniche/src/net/ifmap.o obj/iniche/src/net/macloop.o obj/iniche/src/net/ping.o obj/iniche/src/net/pktalloc.o obj/iniche/src/net/q.o obj/iniche/src/net/slip.o obj/iniche/src/net/slipif.o obj/iniche/src/net/udp_open.o obj/iniche/src/nios2/asm_cksum.o obj/iniche/src/nios2/brdutils.o obj/iniche/src/nios2/osportco.o obj/iniche/src/nios2/targnios.o obj/iniche/src/tcp/in_pcb.o obj/iniche/src/tcp/nptcp.o obj/iniche/src/tcp/rawsock.o obj/iniche/src/tcp/sockcall.o obj/iniche/src/tcp/socket.o obj/iniche/src/tcp/socket2.o obj/iniche/src/tcp/soselect.o obj/iniche/src/tcp/tcp_in.o obj/iniche/src/tcp/tcp_menu.o obj/iniche/src/tcp/tcp_out.o obj/iniche/src/tcp/tcp_subr.o obj/iniche/src/tcp/tcp_timr.o obj/iniche/src/tcp/tcp_usr.o obj/iniche/src/tcp/tcp_zio.o obj/iniche/src/tcp/tcpport.o obj/iniche/src/tcp/tcpsack.o obj/iniche/src/tcp/udpsock.o obj/iniche/src/telnet/telerr.o obj/iniche/src/telnet/telmenu.o obj/iniche/src/telnet/telnet.o obj/iniche/src/telnet/telparse.o obj/iniche/src/telnet/telport.o obj/iniche/src/tftp/tftpcli.o obj/iniche/src/tftp/tftpmenu.o obj/iniche/src/tftp/tftpport.o obj/iniche/src/tftp/tftpsrv.o obj/iniche/src/tftp/tftpudp.o obj/iniche/src/tftp/tftputil.o obj/iniche/src/vfs/vfsfiles.o obj/iniche/src/vfs/vfsport.o obj/iniche/src/vfs/vfssync.o obj/iniche/src/vfs/vfsutil.o
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 15684 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+
+**** Build Finished ****

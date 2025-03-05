@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="305" key="DIALOG_WIDTH"/>
+		<item value="203" key="DIALOG_Y_ORIGIN"/>
+		<item value="444" key="DIALOG_HEIGHT"/>
+		<item value="667" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="" key="selection"/>
+		<list key="findhistory">
+			<item value="waitrequest"/>
+			<item value="AES"/>
+			<item value="ENCYPHER"/>
+			<item value="socket_encypher"/>
+			<item value="ENCYPHER_0"/>
+			<item value="needs"/>
+			<item value="ALTERA_AVALON_EPCS_FLASH_CONTROLLER"/>
+			<item value="decrypt"/>
+		</list>
+		<list key="replacehistory">
+			<item value="AES_DEC"/>
+			<item value="simple_socket"/>
+			<item value="AES_DEC_0"/>
+			<item value="AES_DEC_0_BASE"/>
+			<item value="aes_dec"/>
+			<item value="DECYPHER"/>
+		</list>
+	</section>
+</section>

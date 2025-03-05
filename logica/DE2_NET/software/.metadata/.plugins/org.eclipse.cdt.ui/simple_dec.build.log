@@ -1,0 +1,80 @@
+
+**** Build of configuration Nios II for project simple_dec ****
+
+make all 
+      0 [main] sh 13636 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] sh 6568 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 16904 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Info: Building ../simple_socket_bsp/
+the public mailing list cygwin@cygwin.com
+make --no-print-directory -C ../simple_socket_bsp/
+      0 [main] pwd 13276 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 11308 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+makefile:758: Warning: SOPC File J:/Altera/13.0sp1/projects/DE2_CD/DE2_demonstrations_Qsys/DE2_NET/system_0.sopcinfo could not be found.
+      0 [main] sh 14312 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+[BSP build complete]
+      0 [main] echo 11580 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling LCD.c to obj/default/LCD.o
+      0 [main] mkdir 17448 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../simple_socket_bsp//iniche/inc -I../simple_socket_bsp//iniche/src/h -I../simple_socket_bsp//iniche/src/h/nios2 -I../simple_socket_bsp//iniche/src/nios2 -I../simple_socket_bsp//UCOSII/inc -I../simple_socket_bsp//HAL/inc -I../simple_socket_bsp/ -I../simple_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/LCD.o LCD.c
+Info: Compiling alt_error_handler.c to obj/default/alt_error_handler.o
+LCD.c: In function 'LCD_Test':
+nios2-elf-gcc -xc -MP -MMD -c -I../simple_socket_bsp//iniche/inc -I../simple_socket_bsp//iniche/src/h -I../simple_socket_bsp//iniche/src/h/nios2 -I../simple_socket_bsp//iniche/src/nios2 -I../simple_socket_bsp//UCOSII/inc -I../simple_socket_bsp//HAL/inc -I../simple_socket_bsp/ -I../simple_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/alt_error_handler.o alt_error_handler.c
+Info: Compiling dm9000a.c to obj/default/dm9000a.o
+LCD.c:51: warning: unused variable 'Frase'
+      0 [main] echo 9096 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] mkdir 2184 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      0 [main] echo 6096 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../simple_socket_bsp//iniche/inc -I../simple_socket_bsp//iniche/src/h -I../simple_socket_bsp//iniche/src/h/nios2 -I../simple_socket_bsp//iniche/src/nios2 -I../simple_socket_bsp//UCOSII/inc -I../simple_socket_bsp//HAL/inc -I../simple_socket_bsp/ -I../simple_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/dm9000a.o dm9000a.c
+      0 [main] mkdir 2632 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+dm9000a.c: In function 'prep_dm9000a':
+dm9000a.c:186: warning: pointer targets in assignment differ in signedness
+dm9000a.c:204: warning: pointer targets in passing argument 2 of 'get_mac_addr' differ in signedness
+dm9000a.c: In function 'dm9000a_isr':
+dm9000a.c:281: warning: pointer targets in initialization differ in signedness
+dm9000a.c: In function 'dm9ka_init':
+dm9000a.c:379: warning: pointer targets in passing argument 1 of 'dm9000a_reset' differ in signedness
+dm9000a.c:382: warning: implicit declaration of function 'alt_irq_register'
+dm9000a.c: In function 'dm9ka_pkt_send':
+dm9000a.c:453: warning: pointer targets in passing argument 1 of 'TransmitPacket' differ in signedness
+      0 [main] echo 15636 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: Compiling hello_world.c to obj/default/hello_world.o
+      0 [main] mkdir 15840 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../simple_socket_bsp//iniche/inc -I../simple_socket_bsp//iniche/src/h -I../simple_socket_bsp//iniche/src/h/nios2 -I../simple_socket_bsp//iniche/src/nios2 -I../simple_socket_bsp//UCOSII/inc -I../simple_socket_bsp//HAL/inc -I../simple_socket_bsp/ -I../simple_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+the public mailing list cygwin@cygwin.com
+Info: Compiling iniche_init.c to obj/default/iniche_init.o
+      1 [main] echo 14556 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../simple_socket_bsp//iniche/inc -I../simple_socket_bsp//iniche/src/h -I../simple_socket_bsp//iniche/src/h/nios2 -I../simple_socket_bsp//iniche/src/nios2 -I../simple_socket_bsp//UCOSII/inc -I../simple_socket_bsp//HAL/inc -I../simple_socket_bsp/ -I../simple_socket_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_INICHE -D__ucosii__    -O0 -g -Wall   -EL -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/iniche_init.o iniche_init.c
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 15020 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+iniche_init.c:63: error: expected declaration specifiers or '...' before 'clientFD'
+iniche_init.c:63: error: expected declaration specifiers or '...' before 'listenFD'
+iniche_init.c: In function 'decrypt':
+iniche_init.c:86: error: 'clientFD' undeclared (first use in this function)
+iniche_init.c:86: error: (Each undeclared identifier is reported only once
+iniche_init.c:86: error: for each function it appears in.)
+iniche_init.c:87: error: 'listenFD' undeclared (first use in this function)
+iniche_init.c:124: error: 'AES_DEC_0_BASE' undeclared (first use in this function)
+iniche_init.c: In function 'SSSInitialTask':
+iniche_init.c:228: error: too many arguments to function 'decrypt'
+iniche_init.c:224: warning: unused variable 'but'
+iniche_init.c:223: warning: unused variable 'sw'
+iniche_init.c:178: warning: unused variable 'num_bytes'
+iniche_init.c:177: warning: unused variable 'total_received'
+iniche_init.c:160: warning: unused variable 'error_code'
+make: *** [obj/default/iniche_init.o] Error 1
+
+**** Build Finished ****

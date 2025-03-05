@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="DE2_NET">
+		<CBX_INST_ENTRY INSTANCE_NAME="|AES_decypher_avalon|AES_decypher:Aes_decypher_inst|inv_Controller:inv_Controller_inst|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_25m.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,245 @@
+/******************************************************************************
+* Copyright (c) 2006 Altera Corporation, San Jose, California, USA.
+* All rights reserved. All use of this software and documentation is
+* subject to the License Agreement located at the end of this file below.
+******************************************************************************/
+/*
+ * Modificado para atuar como servidor TCP que aguarda conexão.
+ * A mensagem recebida deve estar no formato:
+ *
+ *    <texto_criptografado_em_hexadecimal>;<chave_em_hexadecimal>
+ *
+ * Cada parte deve ter 32 dígitos (representando 128 bits – 4 palavras de 32 bits).
+ * O código converte os valores e os repassa para o módulo AES (via IOWR/IORD)
+ * para realizar a decriptação. Em seguida, o resultado (128 bits) é enviado
+ * de volta ao cliente como uma string hexadecimal de 32 dígitos.
+ */
+
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <io.h>
+#include <fcntl.h>
+/* MicroC/OS-II definitions */
+#include "../simple_socket_bsp/HAL/inc/includes.h"
+
+#include "../simple_socket_bsp/system.h"
+
+#include "dm9000a.h"
+
+/* Simple Socket Server definitions */
+#include "simple_socket_server.h"
+#include "alt_error_handler.h"
+
+/* Nichestack definitions */
+#include "../simple_socket_bsp/iniche/src/h/nios2/ipport.h"
+#include "../simple_socket_bsp/iniche/src/h/tcpport.h"
+#include "../simple_socket_bsp/iniche/src/h/libport.h"
+#include "../simple_socket_bsp/iniche/src/nios2/osport.h"
+#include "basic_io.h"
+#include "LCD.h"
+#include "altera_avalon_pio_regs.h"
+
+OS_STK    SSSInitialTaskStk[TASK_STACKSIZE];
+
+TK_OBJECT(to_ssstask);
+TK_ENTRY(SSSSimpleSocketServerTask);
+
+struct inet_taskinfo ssstask = {
+      &to_ssstask,
+      "simple socket server",
+      SSSSimpleSocketServerTask,
+      4,
+      APP_STACK_SIZE,
+};
+
+#define PORTA_SERVIDOR 7777
+
+// Função auxiliar: converte uma string de 8 dígitos hex em um unsigned int.
+unsigned int parse_hex_word(const char *str) {
+    return (unsigned int) strtoul(str, NULL, 16);
+}
+
+/*
+ * Função de decriptação via AES.
+ * Recebe dois arrays de 4 palavras (128 bits cada):
+ *   - ciphertext: o texto criptografado
+ *   - key: a chave de decriptação
+ *
+ * A lógica utiliza o mesmo mapeamento do testbench:
+ *   - Escreve o ciphertext em ordem invertida nos offsets 0,4,8,12
+ *   - Escreve a chave em ordem invertida nos offsets 16,20,24,28
+ *   - Aciona a operação escrevendo 1 no offset 60
+ *   - Aguarda até IORD(AES_DEC_0_BASE,48)==1 e lê o resultado dos offsets 32,36,40,44
+ *
+ * O resultado é formatado numa string hexadecimal de 32 dígitos e armazenado
+ * em result_str (deve ter tamanho mínimo 33 para incluir o '\0').
+ */
+void decryptAES(unsigned int ciphertext[4], unsigned int key[4], char *result_str) {
+    unsigned int result[4];
+    int i;
+    // Escreve o ciphertext (em ordem invertida: 3-i)
+    for(i = 0; i < 4; i++){
+        IOWR(AES_DEC_0_BASE, 4*i, ciphertext[3-i]);
+    }
+    // Escreve a chave (em ordem invertida)
+    for(i = 0; i < 4; i++){
+        IOWR(AES_DEC_0_BASE, 4*i + 16, key[3-i]);
+    }
+    // Aciona a operação de decriptação
+    IOWR(AES_DEC_0_BASE, 60, 1);
+    while(IORD(AES_DEC_0_BASE, 48) != 1){ }
+    // Lê o resultado (nos offsets 32,36,40,44)
+    for(i = 0; i < 4; i++){
+        result[i] = IORD(AES_DEC_0_BASE, 4*i + 32);
+    }
+    // Formata o resultado como uma string hexadecimal (32 dígitos).
+    // O resultado é enviado em ordem: palavra 3,2,1,0.
+    sprintf(result_str, "%08X%08X%08X%08X", result[3], result[2], result[1], result[0]);
+}
+
+void SSSInitialTask(void *task_data)
+{
+  INT8U error_code;
+
+  alt_iniche_init();
+  netmain();
+
+  while (!iniche_net_ready)
+    TK_SLEEP(1);
+
+  int SocketFD, ClientFD;
+  struct sockaddr_in sa, client_addr;
+  int res;
+  char buf[2000];
+  int addr_len = sizeof(client_addr);
+
+  // Cria o socket servidor
+  SocketFD = socket(PF_INET, SOCK_STREAM, IPPROTO_TCP);
+  if (SocketFD < 0) {
+      perror("Erro ao criar socket");
+      exit(EXIT_FAILURE);
+  }
+  memset(&sa, 0, sizeof(sa));
+  sa.sin_family = AF_INET;
+  sa.sin_port = htons(PORTA_SERVIDOR);
+  sa.sin_addr.s_addr = htonl(INADDR_ANY); // aceita conexões de qualquer interface
+
+  if (bind(SocketFD, (struct sockaddr *)&sa, sizeof(sa)) < 0) {
+      perror("Bind falhou");
+      close(SocketFD);
+      exit(EXIT_FAILURE);
+  }
+
+  if (listen(SocketFD, 1) < 0) {
+      perror("Listen falhou");
+      close(SocketFD);
+      exit(EXIT_FAILURE);
+  }
+
+  printf("Aguardando conexao TCP na porta %d...\n", PORTA_SERVIDOR);
+  ClientFD = accept(SocketFD, (struct sockaddr *)&client_addr, &addr_len);
+  if (ClientFD < 0) {
+      perror("Accept falhou");
+      close(SocketFD);
+      exit(EXIT_FAILURE);
+  }
+  printf("Conexao estabelecida\n");
+
+  while (1){
+      int recebido = recv(ClientFD, buf, sizeof(buf)-1, 0);
+      if (recebido <= 0) {
+          break;
+      }
+      buf[recebido] = '\0';
+      printf("Mensagem recebida: %s\n", buf);
+
+      // Espera o formato: <texto_criptografado>;<chave>
+      char *token = strtok(buf, ";");
+      if (token == NULL) {
+          printf("Formato invalido: faltou o delimitador ';'\n");
+          continue;
+      }
+      if (strlen(token) < 32) {
+          printf("Formato invalido: texto criptografado muito curto\n");
+          continue;
+      }
+      char ciphertext_str[33];
+      strncpy(ciphertext_str, token, 32);
+      ciphertext_str[32] = '\0';
+
+      token = strtok(NULL, ";");
+      if (token == NULL) {
+          printf("Formato invalido: chave nao recebida\n");
+          continue;
+      }
+      if (strlen(token) < 32) {
+          printf("Formato invalido: chave muito curta\n");
+          continue;
+      }
+      char key_str[33];
+      strncpy(key_str, token, 32);
+      key_str[32] = '\0';
+
+      // Converte cada bloco de 8 dígitos hex em uma palavra (unsigned int)
+      unsigned int ciphertext[4], key[4];
+      char temp[9];
+      int i;
+      temp[8] = '\0';
+      for(i = 0; i < 4; i++){
+          strncpy(temp, ciphertext_str + i*8, 8);
+          ciphertext[i] = parse_hex_word(temp);
+      }
+      for(i = 0; i < 4; i++){
+          strncpy(temp, key_str + i*8, 8);
+          key[i] = parse_hex_word(temp);
+      }
+
+      printf("Texto: %s\n", ciphertext);
+      printf("Key: %s\n", key);
+
+      // Chama a função que repassa os dados para o módulo AES e lê o resultado
+      char result_str[33];
+      memset(result_str, 0, sizeof(result_str));
+      decryptAES(ciphertext, key, result_str);
+      printf("Mensagem decriptografada: %s\n", result_str);
+
+      // Envia o resultado (32 dígitos hex) de volta ao cliente
+      if (send(ClientFD, result_str, 32, 0) < 0) {
+          perror("Send falhou");
+          break;
+      }
+  }
+
+  close(ClientFD);
+  close(SocketFD);
+  exit(EXIT_SUCCESS);
+}
+
+/* Main cria uma única tarefa, SSSInitialTask, e inicia o escalonador RTOS. */
+int main (int argc, char* argv[], char* envp[])
+{
+  INT8U error_code;
+
+  DM9000A_INSTANCE( DM9000A_0, dm9000a_0 );
+  DM9000A_INIT( DM9000A_0, dm9000a_0 );
+
+  /* Limpa o timer do RTOS */
+  OSTimeSet(0);
+
+  error_code = OSTaskCreateExt(SSSInitialTask,
+                             NULL,
+                             (void *)&SSSInitialTaskStk[TASK_STACKSIZE],
+                             SSS_INITIAL_TASK_PRIORITY,
+                             SSS_INITIAL_TASK_PRIORITY,
+                             SSSInitialTaskStk,
+                             TASK_STACKSIZE,
+                             NULL,
+                             0);
+  alt_uCOSIIErrorHandler(error_code, 0);
+
+  OSStart();
+  while(1);
+  return -1;
+}

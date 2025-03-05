@@ -1,0 +1,106 @@
+library ieee ;
+use ieee.std_logic_1164.all ;
+use ieee.numeric_std.all ;
+use ieee.fixed_pkg.all;
+
+package utils_pkg is
+    type complex_t is record
+        re : sfixed(15 downto -16) ;
+        im : sfixed(15 downto -16) ;
+    end record ;
+
+    type complex_array is array (natural range <>) of complex_t ;
+
+    function cmplx_add (a, b : complex_t) return complex_t ;
+    function cmplx_sub (a, b : complex_t) return complex_t ;
+    function cmplx_mul (a, b : complex_t) return complex_t ;
+    function cmplx_mod (a : complex_t) return sfixed (15 downto -16) ;
+    function cmplx (re, im : sfixed (15 downto -16)) return complex_t ;
+    function cmplx (re, im : real) return complex_t ;
+    function cmplx (re, im : integer) return complex_t ;
+
+    type stdlv32_array is array (natural range <>) of std_logic_vector(31 downto 0);
+
+    function cmplxarr_to_stdlv32arr (a : complex_array) return stdlv32_array ;
+    function stdlv32arr_to_cmplxarr (a : stdlv32_array) return complex_array ;
+
+
+end package utils_pkg ;
+
+package body utils_pkg is
+
+    function cmplx_add (a, b : complex_t) return complex_t is
+        variable c : complex_t ;
+    begin
+        c.re := resize(a.re + b.re, 15, -16) ;
+        c.im := resize(a.im + b.im, 15, -16) ;
+        return c ;
+    end function cmplx_add ;
+
+    function cmplx_sub (a, b : complex_t) return complex_t is
+        variable c : complex_t ;
+    begin
+        c.re := resize(a.re - b.re, 15, -16) ;
+        c.im := resize(a.im - b.im, 15, -16) ;
+        return c ;
+    end function cmplx_sub ;
+
+    function cmplx_mul (a, b : complex_t) return complex_t is
+        variable c : complex_t ;
+    begin
+        c.re := resize(a.re * b.re - a.im * b.im, 15, -16) ;
+        c.im := resize(a.re * b.im + a.im * b.re, 15, -16) ;
+        return c ;
+    end function cmplx_mul ;
+
+    function cmplx_mod (a : complex_t) return sfixed (15 downto -16) is
+    begin
+        return resize(sqrt(a.re * a.re + a.im * a.im), 15, -16) ;
+    end function cmplx_mod ;
+
+    function cmplx (re, im : sfixed(15 downto -16)) return complex_t is
+        variable c : complex_t ;
+    begin
+        c.re := re ;
+        c.im := im ;
+        return c ;
+    end function cmplx ;
+
+    function cmplx (re, im : real) return complex_t is
+        variable c : complex_t ;
+    begin
+        c.re := to_sfixed(re, 15, -16) ;
+        c.im := to_sfixed(im, 15, -16) ;
+        return c ;
+    end function cmplx ;
+
+    function cmplx (re, im : integer) return complex_t is
+        variable c : complex_t ;
+    begin
+        c.re := to_sfixed(re, 15, -16) ;
+        c.im := to_sfixed(im, 15, -16) ;
+        return c ;
+    end function cmplx ;
+
+    function cmplxarr_to_stdlv32arr (a : complex_array) return stdlv32_array is
+        variable c : stdlv32_array (a'range) ;
+        variable m : sfixed (15 downto -16) ;
+    begin
+        for i in a'range loop
+            m := cmplx_mod(a(i)) ;
+            c(i) := std_logic_vector(resize(m, 31, 0)) ;
+        end loop ;
+        return c ;
+    end function cmplxarr_to_stdlv32arr ;
+
+    function stdlv32arr_to_cmplxarr (a : stdlv32_array) return complex_array is
+        variable c : complex_array (a'range) ;
+    begin
+        for i in a'range loop
+            c(i) := cmplx(to_sfixed(to_integer(signed(a(i))), 15, -16), 0) ;
+        end loop ;
+        return c ;
+    end function stdlv32arr_to_cmplxarr ;
+
+
+end package body utils_pkg ;
